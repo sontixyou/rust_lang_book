@@ -17,4 +17,8 @@ fn main() {
     const MAX_POINTS: i32 = 100_000;
 
     println!("The value MAX_POINTS is: {}", MAX_POINTS);
+
+    // Data type
+    // 型を指定しないとエラーになる。型の推論が出来ないため。
+    let guess = "42".parse().expect("Not a number!");
 }
