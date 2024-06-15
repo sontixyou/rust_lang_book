@@ -47,4 +47,10 @@ fn main() {
     for element in a {
         println!("the value is: {element}");
     }
+
+    // 321の順番で表示される。rangeの書き方がRubyとは異なる
+    for number in (1..4).rev() {
+        println!("{number}!");
+    }
+    println!("LIFTOFF!!!");
 }
